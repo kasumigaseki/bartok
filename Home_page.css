@@ -1,0 +1,90 @@
+/*all------------------------------------------------------------------*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#F2F2F2;
+}
+
+
+/*header---------------------------------------------------------------*/
+
+header{
+    
+    background-image:url("https://pbs.twimg.com/profile_banners/734709496409292800/1464055440/600x200");
+    background-size:cover;
+}
+
+.top{
+    width:800px;
+    margin:0 auto 0 auto;
+}
+
+#icon{
+    width:150px;
+    border:solid black;
+    border-radius:50%;
+    margin:40px 10px -30px 30px;
+}
+
+#company_name{
+    color:black;
+    font-size:40px;
+    text-shadow:2px 2px 2px;
+}
+
+nav{
+    background-color:#aacccc;
+    border-radius:10px 10px 0px 0px;
+    
+}
+
+nav ul{
+    margin-left:200px;
+}
+
+nav ul li{
+    display:inline;
+    margin:0px 15px 0px 15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#444444;
+    font-weight:bold;
+}
+
+
+/*main--------------------------------------------------------------*/
+
+.container{
+    width:740px;
+    background-color:white;
+    margin:0px auto;
+    padding:30px 30px 70px 30px;
+}
+
+.profile{
+    line-height:35px;
+}
+
+hr{
+    margin:20px 0px 60px 0px;
+}
+
+
+/*fooder-----------------------------------------------------------*/
+
+fooder{
+    position:fixed;
+    bottom:0;
+    background-color:#E6E6E6;
+    width:100%;
+    padding:50px 0px;
+    text-align:center;
+    color:#666666;
+    font-size:15px;
+}
